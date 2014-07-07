@@ -1,0 +1,157 @@
+/* Article pop-up */
+.white-popup {
+	position: absolute;
+	width: 65%;
+	height: 550px;
+
+	max-width: 780px;
+
+	left: 15%;           /* Need a way to keep it centered */
+	bottom: -295px;
+
+	padding: 20px 35px 20px 35px;
+
+	background: #FFF;
+	box-shadow: 0 0 .5em #333;
+
+	text-align: left;
+	overflow: scroll;
+
+	z-index: 200;
+}
+.white-popup a {
+	color: #65B0A9;
+}
+.white-popup a:hover {
+	-webkit-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	color: #DA9286;
+}
+.article-popup-title {
+	font-size: 34px;
+}
+.white-popup h4 {
+	font-family: inherit;
+	font-size: 20px;
+}
+#cs_ed_week img {
+	width: 40%;
+	height: auto;
+
+	float: left;
+
+	margin-top: 20px;
+	margin-right: 4%;
+	margin-bottom: 5px;
+
+	border: solid 2px white;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.4);
+}
+
+/* Email form popup */
+.white-popup-block {
+	position: absolute;
+	width: 50%;
+	height: auto;
+
+	left: 23%;
+	bottom: -190px;
+
+	padding: 15px;
+
+	background: #FFF;
+	box-shadow: 0 0 .5em #333;
+
+	text-align: left;
+	font-family: inherit;
+	font-size: 16px;
+	font-weight: lighter;
+	color: #6a6a6a;
+
+	z-index: 200px;
+}
+form h3 {
+	margin: 0;
+
+	font-size: 30px;
+	font-family: "Andale Mono";
+	color: #333;
+}
+ol li {
+	padding: 3px;
+}
+input {
+	height: 25px;
+
+	color: #65B0A9;
+	font-size: 18px;
+	font-weight: 500; //400 is NORMAL
+}
+textarea {
+	height: 80px;
+	width: 85%;
+
+	font-size: 17px;
+	font-family: inherit;
+	color: #65B0A9;
+}
+
+.mfp-hide {
+	display: none !important;
+}
+.mfp-preloader {
+	display: none !important;
+}
+
+
+#maintenance-body {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	margin-top: 200px;
+}
+#maintenance-txt {
+	font-size: 64px;
+	font-family: "FontAwesome",sans-serif;
+	color: #333;
+}
+#maintenance-txt i {
+	color: #888;
+}
+#maintenance-body a {
+	postion: relative;
+
+	transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	
+	font-size: 30px;
+	text-decoration: none;
+	color: #428BCA;
+	padding-bottom: 4px;
+	border-bottom: solid 2px #428BCA;
+}
+#maintenance-body a:hover {
+	text-decoration: none;
+	text-shadow: 0 0 0.075em #428BCA;
+	color: #428BCA;
+}
+#maintenance-body a:visited {
+	text-decoration: none;
+	color: #428BCA;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
